@@ -16,3 +16,19 @@ body {
 li {
   list-style: none;
 }
+
+button {
+  width: auto;
+  height: 40px;
+  font-size: 16px;
+  font-weight: 500;
+  border: none;
+  border-radius: 8px;
+  color: #ffffff;
+  background-color: #4e75ff;
+  margin-top: 8px;
+}
+
+button:hover {
+  background-color: #6c8cff;
+}
