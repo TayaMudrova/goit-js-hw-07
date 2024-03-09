@@ -1,0 +1,30 @@
+#categories h2 {
+  color: #2e2f42;
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+#categories li {
+  width: 392px;
+  background-color: #f6f6fe;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+#categories ul {
+  color: #2e2f42;
+  padding-left: 0;
+}
+
+#categories ul > li {
+  width: 360px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  margin-bottom: 8px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: 400;
+}
