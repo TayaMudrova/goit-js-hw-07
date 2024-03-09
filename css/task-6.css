@@ -1,0 +1,40 @@
+#controls {
+  max-width: max-content;
+  display: flex;
+  gap: 16px;
+  background-color: #f6f6fe;
+  width: 100%;
+  padding: 32px;
+  margin-bottom: 16px;
+}
+
+#controls > input {
+  width: 150px;
+  height: 40px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  color: #2e2f42;
+  border: 1px solid #808080;
+}
+
+#controls > button {
+  width: 120px;
+  margin-top: 0;
+}
+
+[data-destroy] {
+  background-color: #ff4e4e;
+}
+
+[data-destroy]:hover {
+  background-color: #ff7070;
+}
+
+#boxes {
+  display: flex;
+  width: max-content;
+  gap: 16px;
+  background-color: #f6f6fe;
+  padding: 32px;
+}
