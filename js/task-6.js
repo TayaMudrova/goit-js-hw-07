@@ -19,7 +19,7 @@ function destroyBox() {
 
 function createBoxes(amount) {
   let code = [];
-  let size = 0;
+  let size = 30;
   for (let i = 0; i < amount.value; i++) {
     code.push(
       `<div id="boxes${i}" style="height: ${size}px; width: ${size}px; background-color: ${getRandomHexColor()};"></div>`
